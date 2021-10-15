@@ -104,23 +104,43 @@ a {
   margin-top: 35px;
 }
 #appBar {
-  background-color: rgba(138, 135, 135, 0.651);
   width: 70%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1%;
-  border-radius: 20px;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto;
+}
+#appbar2 {
+  background-color: rgba(138, 135, 135, 0.651);
+  border-radius: 20px;
+  padding: 10px;
 }
 #bottom {
   margin-top: 50px;
   width: 100%;
 }
 
+#singleApp {
+  background-color: rgb(0, 255, 42);
+  width: 10%;
+  text-align: center;
+  border-radius: 10px;
+  height: 80%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#App {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 7px;
+  border-radius: 10px;
+}
 @media only screen and (min-width: 100px) {
-  #appBar {
-    background-color: rgba(255, 0, 0, 0.651);
-  }
   #image {
     height: 100px;
   }
@@ -133,15 +153,11 @@ a {
   #appBar {
     height: 70px;
   }
-  #image{
+  #image {
     margin-left: 50px;
   }
-  
 }
 @media only screen and (min-width: 600px) {
-  #appBar {
-    background-color: rgba(255, 0, 0, 0.651);
-  }
   #image {
     height: 150px;
   }
@@ -154,15 +170,11 @@ a {
   #appBar {
     height: 70px;
   }
-  #image{
+  #image {
     margin-left: 50px;
   }
-  
 }
 @media only screen and (min-width: 840px) {
-  #appBar {
-    background-color: rgba(255, 0, 0, 0.651);
-  }
   #image {
     height: 150px;
   }
@@ -180,9 +192,6 @@ a {
   }
 }
 @media only screen and (min-width: 1000px) {
-  #appBar {
-    background-color: rgba(255, 0, 0, 0.651);
-  }
   #image {
     height: 150px;
   }
@@ -200,9 +209,6 @@ a {
   }
 }
 @media only screen and (min-width: 1200px) {
-  #appBar {
-    background-color: rgba(56, 0, 0, 0.651);
-  }
   #image {
     height: 250px;
   }
