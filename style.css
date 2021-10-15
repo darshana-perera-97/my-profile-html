@@ -10,3 +10,212 @@ body {
   background-image: url("back.png");
   background-repeat: no-repeat;
 }
+
+#Rectangle_1 {
+  position: absolute;
+  overflow: visible;
+  width: 100%;
+  height: 35px;
+  opacity: 0.65;
+  padding: -2px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+}
+#logo {
+  font-family: SeriusSSi;
+  color: rgba(255, 195, 0, 1);
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+  height: 100%;
+  width: 40px;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  padding-top: 6px;
+}
+#link {
+  font-family: SeriusSSi;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+#link:hover {
+  color: #000;
+  font-weight: bolder;
+}
+a {
+  text-decoration: none;
+  color: rgb(153, 153, 153);
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+
+#profileBox {
+  background-color: rgba(138, 135, 135, 0.651);
+  margin-top: 5%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  padding: 100px 0px;
+  display: flex;
+}
+#content {
+  margin-left: auto;
+  margin-right: auto;
+}
+#image {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 3vh;
+}
+
+#name {
+  font-family: "Noto Sans", sans-serif;
+  color: aliceblue;
+  text-shadow: 2px 3px rgb(0, 0, 0);
+  text-align: center;
+}
+#text {
+  text-align: center;
+  margin-top: 5%;
+}
+#line {
+  margin-top: -5px;
+  margin-bottom: -10px;
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+}
+#icn {
+  opacity: 0.6;
+  fill: rgb(255, 255, 255);
+  width: 50px;
+  margin-left: 20px;
+  /* background-color: #000; */
+}
+#iconSet {
+  margin-left: auto;
+  margin-bottom: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 35px;
+}
+#appBar {
+  background-color: rgba(138, 135, 135, 0.651);
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  border-radius: 20px;
+  text-align: center;
+}
+#bottom {
+  margin-top: 50px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 100px) {
+  #appBar {
+    background-color: rgba(255, 0, 0, 0.651);
+  }
+  #image {
+    height: 100px;
+  }
+  #line {
+    font-size: 11px;
+  }
+  #name {
+    font-size: 20px;
+  }
+  #appBar {
+    height: 70px;
+  }
+  #image{
+    margin-left: 50px;
+  }
+  
+}
+@media only screen and (min-width: 600px) {
+  #appBar {
+    background-color: rgba(255, 0, 0, 0.651);
+  }
+  #image {
+    height: 150px;
+  }
+  #line {
+    font-size: 11px;
+  }
+  #name {
+    font-size: 20px;
+  }
+  #appBar {
+    height: 70px;
+  }
+  #image{
+    margin-left: 50px;
+  }
+  
+}
+@media only screen and (min-width: 840px) {
+  #appBar {
+    background-color: rgba(255, 0, 0, 0.651);
+  }
+  #image {
+    height: 150px;
+  }
+  #line {
+    font-size: 11px;
+  }
+  #name {
+    font-size: 20px;
+  }
+  #appBar {
+    height: 70px;
+  }
+  #content {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  #appBar {
+    background-color: rgba(255, 0, 0, 0.651);
+  }
+  #image {
+    height: 150px;
+  }
+  #line {
+    font-size: 12px;
+  }
+  #name {
+    font-size: 20px;
+  }
+  #appBar {
+    height: 80px;
+  }
+  #content {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #appBar {
+    background-color: rgba(56, 0, 0, 0.651);
+  }
+  #image {
+    height: 250px;
+  }
+  #line {
+    font-size: 16px;
+  }
+  #name {
+    font-size: 30px;
+  }
+  #appBar {
+    height: 100px;
+  }
+  #content {
+    display: flex;
+  }
+}
